@@ -17,7 +17,7 @@ module ripplecounter(
     );
     
     tflipflop s3 (
-    .Rst(Rst),
+        .Rst(Rst),
         .T(1'b1),
         .Clk(stage2),
         .Q(stage3)
