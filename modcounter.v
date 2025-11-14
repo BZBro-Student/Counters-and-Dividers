@@ -34,7 +34,7 @@ module modcounter (
         .Cin(coutcin2),
         .Y(yd3)
     );
-    assign cmpreset = qacomp3 & qacomp2 & ~qacomp1;
+    assign cmpreset = qacomp3 & qacomp1;
 
     assign rst_all = reset | cmpreset;
     
